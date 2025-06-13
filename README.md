@@ -32,7 +32,7 @@ This project showcases a deployed landing page for ResolveISH, a web application
    - Connected to the EC2 instance using SSH:ssh -i ~/Downloads/TestKey.pem ubuntu@51.21.190.29
    - After I had run: chmod 400 Testkey.pem 
    - That gave appropriate permission to the key file
-3. Uploaded my index.html file to the server using SCP and escaped space in the folder name by including \:
+3. Uploaded my index.html file to the server using SCP and escaped space in the folder name by including \ :
  scp -i ~/Downloads/TestKey.pem ~/Desktop/ALTSCHOOL\ PROJECT/index.html ubuntu@51.21.190.29:/home/ubuntu
 4. Moved the index.html file to Apache first verifying the file exists and upload it using
    - ls /home/ubuntu/index.html
