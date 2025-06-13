@@ -49,12 +49,13 @@ sudo certbot --apache
 Let's Encrypt SSL via Certbot requires a Fully Qualified Domain Name and cannot issue a certificate to a raw IP address.
 
 Access the live landing page here:
- http://51.21.190.29
+ (https://51.21.190.29)
 
 Note: This IP may not show a padlock icon (https) because SSL was not applied. The page is still publicly accessible and functional.
 
 Preview of the page:
-<img width="1196" alt="Screenshot" src="https://github.com/user-attachments/assets/548e970b-4b07-484d-baa9-dc48d442ccee" />
+
+<img width="1359" alt="Screenshot" src="https://github.com/user-attachments/assets/98332c5e-6ba8-4bd4-a3dc-633333d0abba" />
 
 
 Repository Content:
